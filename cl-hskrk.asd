@@ -3,6 +3,9 @@
   :description "Access and control Hackerspace Kraków programmatically through a friendly Common Lisp API."
   :author "Jacek 'TeMPOraL' Złydach"
   :license "Beerware."
-  :depends-on (#:cl-json)
+  :depends-on (#:alexandria
+               #:drakma
+               #:cl-json)
 
-  :components ((:file "package")))
+  :components ((:file "package")
+               (:file "lights")))
