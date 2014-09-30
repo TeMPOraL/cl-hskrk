@@ -1,0 +1,18 @@
+#+title: Notes
+#+startup: hidestars
+
+* Design
+  Stateful? Stateless?
+  Object-Oriented? Functional?
+
+  Maybe make it universal (cl-hackerspace), make it talk to Space API.
+  Make Hackerspace a class, with methods providing additional functionalities?
+  Hackerspace Kraków could be a subclass then.
+
+* Planned Features
+  - switching light(s) on and off
+  - querying present users
+  - installing callbacks on light and user events
+  - open/closed status
+  - handling full space api
+  - StumpWM integration

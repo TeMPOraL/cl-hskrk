@@ -8,4 +8,9 @@
                #:cl-json)
 
   :components ((:file "package")
-               (:file "lights")))
+
+               (:file "utils")
+
+               (:file "at")             ;TODO create
+               (:file "lights")
+               (:file "sensors")))      ;TODO create
