@@ -8,7 +8,7 @@
 
   ;; TODO exports go here.
 
-  (:export #:light-list
+  (:export #:list-lights
            #:get-light-state
            #:set-light-state
            #:toggle-light))
