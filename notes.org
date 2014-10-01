@@ -16,3 +16,8 @@
   - open/closed status
   - handling full space api
   - StumpWM integration
+
+
+* To do
+
+** TODO Proper error handling using conditions.
